@@ -2,12 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <!-- Favicon: Using your AgroFinCare logo SVG -->
+    <!-- Make sure to save the latest AgroFinCare logo SVG code (from our previous conversation) -->
+    <!-- as 'public/logo.svg' in your frontend directory. -->
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    
+    <!-- Viewport meta tag for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AgroFinCare</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="AgroFinCare offers AI-driven solutions for smart agriculture, including crop health advisory, financial risk assessment, and farmer support. Empowering farmers for sustainable growth and prosperity." />
+    <meta name="keywords" content="AgroFinCare, agriculture, farming, AI, machine learning, NLP, IoT, financial risk, crop health, fertilizer, chatbot, micro-insurance, farmer support" />
+    <meta name="author" content="Ishan Saxena" />
+
+    <!-- Open Graph / Social Media Meta Tags (for sharing) -->
+    <meta property="og:title" content="AgroFinCare: Smart Agriculture & Financial Solutions for Farmers" />
+    <meta property="og:description" content="Empowering farmers with AI-driven solutions for crop health, financial assessment, and expert advisory. Cultivating prosperity together." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.yourwebsite.com/" /> <!-- Replace with your actual deployed URL -->
+    <meta property="og:image" content="https://www.yourwebsite.com/social-share-image.jpg" /> <!-- Consider creating a social share image in public/ -->
+
+    <!-- Google Fonts - Inter (a modern, clean font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Title of your application -->
+    <title>AgroFinCare: Smart Agriculture & Financial Solutions</title>
   </head>
   <body>
+    <!-- Root element where your React app will be mounted -->
     <div id="root"></div>
+    
+    <!-- Main JavaScript entry point for your Vite React app -->
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Optional: If you were to use Tailwind CSS via CDN instead of PostCSS setup, you would include it here. -->
+    <!-- For a React/Vite project, Tailwind is typically installed and configured via postcss.config.js and tailwind.config.js -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   </body>
 </html>
